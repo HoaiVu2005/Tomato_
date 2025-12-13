@@ -35,7 +35,7 @@ const TaskPagination = ({
   };
   const pagesToShow = generatePages();
   return (
-    <div className="flex justify-center ">
+    <div className="flex justify-center mt-6">
       <Pagination>
         <PaginationContent>
           {/* Truoc */}

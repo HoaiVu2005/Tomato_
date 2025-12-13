@@ -141,7 +141,7 @@ const TaskCard = ({ task, index, handleReLoad }) => {
         </div>
 
         {/* edit and delete */}
-        <div className="hidden group-hover:inline-block gap-2 animate-slide-up">
+        <div className="sm:hidden group-hover:inline-block gap-2 animate-slide-up">
           <Button
             onClick={() => {
               setIsEditing(true), setUpdateTitle(task.title || "");

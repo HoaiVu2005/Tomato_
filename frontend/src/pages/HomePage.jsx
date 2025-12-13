@@ -107,7 +107,7 @@ const HomePage = () => {
             handleReLoad={handleReLoad}
           />
 
-          <div className="flex items-center  justify-between sm:flex-row flex-col">
+          <div className="flex items-center space-y-5 justify-between sm:flex-row flex-col">
             <TaskPagination
               handleNext={handleNext}
               handlePrev={handlePrev}
